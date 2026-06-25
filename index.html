@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ČT Sport Live | IPTV</title>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            border-bottom: 3px solid #3C0;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            background: #3C0;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 20px;
+            color: #000;
+        }
+        .logo-text h1 {
+            font-size: 24px;
+            color: #fff;
+            font-weight: 700;
+        }
+        .logo-text span {
+            font-size: 12px;
+            color: #3C0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .live-badge {
+            background: #e00;
+            color: #fff;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+
+        /* Main Layout */
+        .main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px 16px;
+        }
+
+        /* Player */
+        .player-section {
+            margin-bottom: 32px;
+        }
+        .player-wrapper {
+            position: relative;
+            background: #000;
+            border-radius: 12px;
+            overflow: hidden;
+            aspect-ratio: 16/9;
+            box-shadow: 0 8px 32px rgba(60, 204, 0, 0.15);
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        .player-overlay {
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            display: flex;
+            gap: 8px;
+            z-index: 10;
+        }
+        .tag {
+            background: rgba(0,0,0,0.7);
+            backdrop-filter: blur(8px);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .tag.live { background: rgba(224,0,0,0.85); }
+        .tag.quality { border: 1px solid #3C0; color: #3C0; }
+
+        /* Status Bar */
+        .status-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 0;
+            margin-bottom: 24px;
+        }
+        .status-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            background: #3C0;
+            border-radius: 50%;
+            box-shadow: 0 0 8px #3C0;
+        }
+        .status-text {
+            font-size: 13px;
+            color: #888;
+        }
+        .status-text strong { color: #3C0; }
+        .tz-note {
+            font-size: 11px;
+            color: #666;
+        }
+
+        /* Schedule Section */
+        .schedule-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+        .schedule-header h2 {
+            font-size: 20px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .schedule-header h2::before {
+            content: '';
+            width: 4px;
+            height: 20px;
+            background: #3C0;
+            border-radius: 2px;
+        }
+
+        /* Day Tabs */
+        .day-tabs {
+            display: flex;
+            gap: 6px;
+            margin-bottom: 20px;
+            overflow-x: auto;
+            padding-bottom: 8px;
+        }
+        .day-tab {
+            padding: 8px 16px;
+            border-radius: 8px;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            color: #888;
+            font-size: 13px;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.2s;
+        }
+        .day-tab:hover { border-color: #3C0; color: #fff; }
+        .day-tab.active {
+            background: #3C0;
+            color: #000;
+            font-weight: 700;
+            border-color: #3C0;
+        }
+
+        /* Schedule List */
+        .schedule-list {
+            display: none;
+        }
+        .schedule-list.active { display: block; }
+
+        .schedule-item {
+            display: grid;
+            grid-template-columns: 60px 1fr auto;
+            gap: 16px;
+            align-items: center;
+            padding: 14px 16px;
+            border-radius: 10px;
+            margin-bottom: 6px;
+            background: #141414;
+            border: 1px solid transparent;
+            transition: all 0.2s;
+        }
+        .schedule-item:hover {
+            background: #1a1a1a;
+            border-color: #333;
+        }
+        .schedule-item.live-now {
+            background: rgba(60, 204, 0, 0.08);
+            border-color: rgba(60, 204, 0, 0.3);
+        }
+        .schedule-time {
+            font-size: 15px;
+            font-weight: 700;
+            color: #fff;
+            font-variant-numeric: tabular-nums;
+        }
+        .schedule-info h3 {
+            font-size: 14px;
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+        .schedule-meta {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        .schedule-sport {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #3C0;
+            font-weight: 600;
+        }
+        .schedule-duration {
+            font-size: 11px;
+            color: #666;
+        }
+        .schedule-status {
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+        .schedule-status.live {
+            background: #e00;
+            color: #fff;
+        }
+        .schedule-status.recorded {
+            background: #333;
+            color: #999;
+        }
+        .schedule-status.upcoming {
+            background: transparent;
+            color: #666;
+        }
+        .schedule-item.highlight .schedule-sport {
+            color: #FFD700;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 32px 16px;
+            color: #444;
+            font-size: 12px;
+            border-top: 1px solid #1a1a1a;
+            margin-top: 40px;
+        }
+
+        /* Loading */
+        .loading-overlay {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            z-index: 5;
+        }
+        .loading-spinner {
+            width: 48px;
+            height: 48px;
+            border: 3px solid #222;
+            border-top-color: #3C0;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Error */
+        .error-msg {
+            position: absolute;
+            inset: 0;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            z-index: 5;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .error-msg.show { display: flex; }
+        .error-msg .icon { font-size: 48px; }
+        .error-msg p { color: #888; font-size: 14px; }
+        .retry-btn {
+            background: #3C0;
+            color: #000;
+            border: none;
+            padding: 8px 24px;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        @media (max-width: 640px) {
+            .schedule-item { grid-template-columns: 50px 1fr; }
+            .schedule-status { grid-column: 2; justify-self: start; }
+            .logo-text h1 { font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="logo">
+        <div class="logo-icon">ČT</div>
+        <div class="logo-text">
+            <h1>ČT Sport</h1>
+            <span>Czech Television Sport</span>
+        </div>
+    </div>
+    <div class="live-badge">LIVE</div>
+</div>
+
+<div class="main">
+    <div class="player-section">
+        <div class="player-wrapper">
+            <div class="player-overlay">
+                <span class="tag live">LIVE</span>
+                <span class="tag quality">720p</span>
+            </div>
+            <div class="loading-overlay" id="loading">
+                <div class="loading-spinner"></div>
+            </div>
+            <div class="error-msg" id="error">
+                <div class="icon">📡</div>
+                <p>Stream sedang tidak tersedia</p>
+                <button class="retry-btn" onclick="initPlayer()">Coba Lagi</button>
+            </div>
+            <video id="video" autoplay muted controls></video>
+        </div>
+    </div>
+
+    <div class="status-bar">
+        <div class="status-left">
+            <div class="status-dot"></div>
+            <span class="status-text">ČT Sport <strong>LIVE</strong> | 720p</span>
+        </div>
+        <span class="tz-note">Jadwal dalam waktu CET (Prague) | WIB = CET + 5 jam</span>
+    </div>
+
+    <div class="schedule-header">
+        <h2>Jadwal Siaran ČT Sport</h2>
+    </div>
+
+    <div class="day-tabs" id="dayTabs"></div>
+
+    <div id="scheduleContainer"></div>
+</div>
+
+<div class="footer">
+    ČT Sport Live Stream | Jadwal dari sport.ceskatelevize.cz<br>
+    Waktu dalam CET (Central European Time) &mdash; WIB = CET + 5 jam
+</div>
+
+<script>
+const STREAM_URL = '/proxy?url=' + encodeURIComponent('http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8') + '&referer=' + encodeURIComponent('http://www.ceskatelevize.cz/sport/') + '&origin=' + encodeURIComponent('http://www.ceskatelevize.cz');
+
+function initPlayer() {
+    const video = document.getElementById('video');
+    const loading = document.getElementById('loading');
+    const error = document.getElementById('error');
+    
+    loading.style.display = 'flex';
+    error.classList.remove('show');
+
+    if (Hls.isSupported()) {
+        const hls = new Hls({
+            maxBufferLength: 10,
+            maxMaxBufferLength: 20,
+            maxBufferSize: 10 * 1024 * 1024,
+            lowLatencyMode: false,
+        });
+        hls.loadSource(STREAM_URL);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+            loading.style.display = 'none';
+            video.play().catch(() => {});
+        });
+        hls.on(Hls.Events.ERROR, (e, data) => {
+            if (data.fatal) {
+                loading.style.display = 'none';
+                error.classList.add('show');
+            }
+        });
+    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = STREAM_URL;
+        video.addEventListener('loadeddata', () => { loading.style.display = 'none'; });
+        video.addEventListener('error', () => {
+            loading.style.display = 'none';
+            error.classList.add('show');
+        });
+    }
+}
+
+// Schedule data from ČT Sport
+const scheduleData = {
+    "Dnes 17.6.": [
+        { time: "05:51", sport: "Fotbal", title: "MS ve fotbale 2026: Rakousko - Jordansko", dur: "120 min", status: "recorded" },
+        { time: "09:50", sport: "Softbal", title: "MS v softbalu zen: Kuba - Cesko", dur: "150 min", status: "recorded" },
+        { time: "09:50", sport: "Volejbal", title: "Liga narodu volejbalistek: Cesko - Italie", dur: "140 min", status: "recorded" },
+        { time: "15:37", sport: "Cyklistika", title: "Tour de Suisse - 1. etapa", dur: "135 min", status: "recorded" },
+        { time: "18:50", sport: "Fotbal", title: "MS ve fotbale 2026: Portugalsko - DR Kongo", dur: "120 min", status: "live", highlight: true },
+        { time: "18:55", sport: "Softbal", title: "MS v softbalu zen: Italie - Cesko", dur: "155 min", status: "live" },
+        { time: "20:30", sport: "Fotbal", title: "Tiskova konference: Cesko - JAR", dur: "60 min", status: "upcoming" },
+    ],
+    "Zitra 18.6.": [
+        { time: "01:00", sport: "Fotbal", title: "MS ve fotbale 2026: Ghana - Panama", dur: "120 min", status: "upcoming" },
+        { time: "09:50", sport: "Volejbal", title: "Liga narodu volejbalistek: Cesko - USA", dur: "140 min", status: "upcoming" },
+        { time: "12:30", sport: "Jezdectvi", title: "CSI-W Olomouc - SvP ve skocich", dur: "270 min", status: "upcoming" },
+        { time: "15:35", sport: "Cyklistika", title: "Tour de Suisse - 2. etapa", dur: "145 min", status: "upcoming" },
+        { time: "16:45", sport: "Fotbal", title: "MS ve fotbale 2026: Studio MS", dur: "75 min", status: "upcoming" },
+        { time: "17:50", sport: "Fotbal", title: "MS ve fotbale 2026: Cesko - JAR", dur: "140 min", status: "upcoming", highlight: true },
+        { time: "18:55", sport: "Softbal", title: "MS v softbalu zen: Cesko - Tchaj-wan", dur: "155 min", status: "upcoming" },
+        { time: "19:55", sport: "Basketbal", title: "Spanelska liga: Valencia - FC Barcelona", dur: "125 min", status: "upcoming" },
+    ],
+    "Patek 19.6.": [
+        { time: "02:40", sport: "Fotbal", title: "MS ve fotbale 2026: Mexiko - Jizni Korea", dur: "150 min", status: "upcoming" },
+        { time: "08:00", sport: "Jezdectvi", title: "CSI-W Olomouc - SvP ve skocich", dur: "540 min", status: "upcoming" },
+        { time: "13:55", sport: "Volejbal", title: "Liga narodu volejbalistek: Japonsko - Cesko", dur: "135 min", status: "upcoming" },
+        { time: "15:35", sport: "Cyklistika", title: "Tour de Suisse - 3. etapa", dur: "145 min", status: "upcoming" },
+        { time: "17:55", sport: "Cyklistika", title: "Horska kola: SP Lenzerheide - short track zen", dur: "30 min", status: "upcoming" },
+        { time: "18:55", sport: "Softbal", title: "MS v softbalu zen: Kanada - Cesko", dur: "155 min", status: "upcoming" },
+        { time: "19:00", sport: "Atletika", title: "Diamantova liga Dauha", dur: "120 min", status: "upcoming" },
+        { time: "21:00", sport: "Fotbal", title: "MS ve fotbale 2026: USA - Australie", dur: "120 min", status: "upcoming", highlight: true },
+    ],
+    "Sobota 20.6.": [
+        { time: "02:10", sport: "Fotbal", title: "MS ve fotbale 2026: Brazílie - Haiti", dur: "140 min", status: "upcoming" },
+        { time: "05:00", sport: "Fotbal", title: "MS ve fotbale 2026: Turecko - Paraguay", dur: "120 min", status: "upcoming" },
+        { time: "08:55", sport: "Softbal", title: "MS v softballu zen: play-off", dur: "155 min", status: "upcoming" },
+        { time: "09:55", sport: "Triatlon", title: "WTCS Quiberon - zavod muzu", dur: "80 min", status: "upcoming" },
+        { time: "11:20", sport: "Dostihy", title: "II. kvalifikace na 136. Velkou pardubickou", dur: "350 min", status: "upcoming" },
+        { time: "13:50", sport: "Volejbal", title: "Zlata evropska liga: Cesko - Spanelsko", dur: "150 min", status: "upcoming" },
+        { time: "15:20", sport: "Cyklistika", title: "Tour de Suisse - 4. etapa", dur: "145 min", status: "upcoming" },
+        { time: "19:00", sport: "Fotbal", title: "MS ve fotbale 2026: Nizozemsko - Svedsko", dur: "120 min", status: "upcoming", highlight: true },
+    ],
+    "Nedele 21.6.": [
+        { time: "01:40", sport: "Fotbal", title: "MS ve fotbale 2026: Ekvador - Curacao", dur: "150 min", status: "upcoming" },
+        { time: "06:00", sport: "Fotbal", title: "MS ve fotbale 2026: Tunisko - Japonsko", dur: "120 min", status: "upcoming" },
+        { time: "09:55", sport: "Volejbal", title: "Liga narodu volejbalistek: Cesko - Dominikanska republika", dur: "140 min", status: "upcoming" },
+        { time: "15:00", sport: "Atletika", title: "FBK Games Hengelo", dur: "120 min", status: "upcoming" },
+        { time: "15:20", sport: "Cyklistika", title: "Tour de Suisse - 5. etapa", dur: "145 min", status: "upcoming" },
+        { time: "16:00", sport: "Dostihy", title: "Ceske derby", dur: "85 min", status: "upcoming" },
+        { time: "21:00", sport: "Fotbal", title: "MS ve fotbale 2026: Belgie - Iran", dur: "120 min", status: "upcoming", highlight: true },
+    ],
+};
+
+function renderTabs() {
+    const container = document.getElementById('dayTabs');
+    const days = Object.keys(scheduleData);
+    days.forEach((day, i) => {
+        const tab = document.createElement('div');
+        tab.className = 'day-tab' + (i === 0 ? ' active' : '');
+        tab.textContent = day;
+        tab.onclick = () => selectDay(day, tab);
+        container.appendChild(tab);
+    });
+}
+
+function selectDay(day, tab) {
+    document.querySelectorAll('.day-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    renderSchedule(day);
+}
+
+function renderSchedule(day) {
+    const container = document.getElementById('scheduleContainer');
+    const items = scheduleData[day] || [];
+    let html = '<div class="schedule-list active">';
+    items.forEach(item => {
+        const statusClass = item.status === 'live' ? 'live' : item.status === 'recorded' ? 'recorded' : 'upcoming';
+        const statusText = item.status === 'live' ? 'LIVE' : item.status === 'recorded' ? 'Zaznam' : '';
+        const highlightClass = item.highlight ? ' highlight' : '';
+        const liveClass = item.status === 'live' ? ' live-now' : '';
+        html += `
+            <div class="schedule-item${liveClass}${highlightClass}">
+                <div class="schedule-time">${item.time}</div>
+                <div class="schedule-info">
+                    <h3>${item.title}</h3>
+                    <div class="schedule-meta">
+                        <span class="schedule-sport">${item.sport}</span>
+                        <span class="schedule-duration">${item.dur}</span>
+                    </div>
+                </div>
+                ${statusText ? `<span class="schedule-status ${statusClass}">${statusText}</span>` : ''}
+            </div>
+        `;
+    });
+    html += '</div>';
+    container.innerHTML = html;
+}
+
+// Init
+renderTabs();
+renderSchedule(Object.keys(scheduleData)[0]);
+initPlayer();
+</script>
+
+</body>
+</html>

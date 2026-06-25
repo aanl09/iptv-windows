@@ -1,0 +1,2393 @@
+[
+  {
+    "name": "TVRI Nasional",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8",
+    "group": "Indonesia",
+    "size": 271000,
+    "source": "verified"
+  },
+  {
+    "name": "TVRI Aceh",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8",
+    "group": "Indonesia",
+    "size": 150000,
+    "source": "verified"
+  },
+  {
+    "name": "TVRI Bali",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Bali/hls/Bali.m3u8",
+    "group": "Indonesia",
+    "size": 150000,
+    "source": "verified"
+  },
+  {
+    "name": "TVRI Jabar",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8",
+    "group": "Indonesia",
+    "size": 150000,
+    "source": "verified"
+  },
+  {
+    "name": "TVRI Jateng",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Jateng/hls/Jateng.m3u8",
+    "group": "Indonesia",
+    "size": 150000,
+    "source": "verified"
+  },
+  {
+    "name": "TVRI Jatim",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8",
+    "group": "Indonesia",
+    "size": 150000,
+    "source": "verified"
+  },
+  {
+    "name": "Alkass One",
+    "url": "https://liveeu-gcp.alkassdigital.net/alkass1-p/main.m3u8",
+    "group": "Sports",
+    "size": 4500000,
+    "source": "verified"
+  },
+  {
+    "name": "Alkass Two",
+    "url": "https://liveeu-gcp.alkassdigital.net/alkass2-p/main.m3u8",
+    "group": "Sports",
+    "size": 5000000,
+    "source": "verified"
+  },
+  {
+    "name": "Alkass Three",
+    "url": "https://liveeu-gcp.alkassdigital.net/alkass3-p/main.m3u8",
+    "group": "Sports",
+    "size": 4800000,
+    "source": "verified"
+  },
+  {
+    "name": "Alkass Four",
+    "url": "https://liveeu-gcp.alkassdigital.net/alkass4-p/main.m3u8",
+    "group": "Sports",
+    "size": 4500000,
+    "source": "verified"
+  },
+  {
+    "name": "Alkass Six",
+    "url": "https://liveeu-gcp.alkassdigital.net/alkass6-p/main.m3u8",
+    "group": "Sports",
+    "size": 5200000,
+    "source": "verified"
+  },
+  {
+    "name": "beIN Sports XTRA",
+    "url": "https://bein-xtra-bein.amagi.tv/playlist.m3u8",
+    "group": "Sports",
+    "size": 1500000,
+    "source": "verified"
+  },
+  {
+    "name": "beIN Sports XTRA ES",
+    "url": "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8",
+    "group": "Sports",
+    "size": 725000,
+    "source": "verified"
+  },
+  {
+    "name": "Arryadia",
+    "url": "https://stream-lb.livemediama.com/arryadia/hls/master.m3u8",
+    "group": "Sports",
+    "size": 2300000,
+    "source": "verified"
+  },
+  {
+    "name": "Arryadia HD 1",
+    "url": "https://stream-lb.livemediama.com/arryadia-hd-01/hls/master.m3u8",
+    "group": "Sports",
+    "size": 2300000,
+    "source": "verified"
+  },
+  {
+    "name": "A Spor",
+    "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
+    "group": "Sports",
+    "size": 3200000,
+    "source": "verified"
+  },
+  {
+    "name": "Bahrain Sports",
+    "url": "https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8",
+    "group": "Sports",
+    "size": 1900000,
+    "source": "verified"
+  },
+  {
+    "name": "TRT World",
+    "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
+    "group": "News",
+    "size": 4800000,
+    "source": "verified"
+  },
+  {
+    "name": "MBG TV",
+    "url": "https://stream.convergen.co/mbg_stream/smil:mbStream.smil/playlist.m3u8",
+    "group": "Indonesia",
+    "size": 200000,
+    "source": "verified"
+  },
+  {
+    "name": "DAAI TV",
+    "url": "https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8",
+    "group": "Indonesia",
+    "size": 200000,
+    "source": "verified"
+  },
+  {
+    "name": "RRI Net",
+    "url": "https://cdn.adyadigitalteknologi.com:8090/vod/relay.m3u8",
+    "group": "Indonesia",
+    "size": 200000,
+    "source": "verified"
+  },
+  {
+    "name": "Lingkar TV",
+    "url": "https://lingkartv.my.id/hls/lingkartv.m3u8",
+    "group": "Indonesia",
+    "size": 200000,
+    "source": "verified"
+  },
+  {
+    "name": "Caruban TV",
+    "url": "https://stream.carubantv.id/hls/0/stream.m3u8",
+    "group": "Indonesia",
+    "size": 200000,
+    "source": "verified"
+  },
+  {
+    "name": "Alwafa Tarim TV (Am Media) (720p)",
+    "url": "https://ammedia.siar.us/ammedia/live/playlist.m3u8",
+    "group": "Religious",
+    "size": 630364,
+    "source": "tested"
+  },
+  {
+    "name": "Banjar TV (720p) [Not 24/7]",
+    "url": "https://banjartv.siar.us/banjartv/live/playlist.m3u8",
+    "group": "Undefined",
+    "size": 420180,
+    "source": "tested"
+  },
+  {
+    "name": "Balikpapan TV (720p)",
+    "url": "http://122.248.43.242:1935/BALIKPAPANTV/_definst_/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 1397216,
+    "source": "tested"
+  },
+  {
+    "name": "Astro Blitar TV (720p)",
+    "url": "https://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8",
+    "group": "General",
+    "size": 346484,
+    "source": "tested"
+  },
+  {
+    "name": "Bandung TV (360p)",
+    "url": "http://202.150.153.254:65500/bandungtvWEBSITE.m3u8",
+    "group": "General",
+    "size": 525460,
+    "source": "tested"
+  },
+  {
+    "name": "BN Channel (720p)",
+    "url": "https://flv.intechmedia.net/live/ch112.m3u8",
+    "group": "News",
+    "size": 67418,
+    "source": "tested"
+  },
+  {
+    "name": "BRTV (720p)",
+    "url": "https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8",
+    "group": "Undefined",
+    "size": 208116,
+    "source": "tested"
+  },
+  {
+    "name": "Batam TV (480p) [Not 24/7]",
+    "url": "http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 3539664,
+    "source": "tested"
+  },
+  {
+    "name": "Channel Jowo [Geo-blocked]",
+    "url": "https://op-group1-swiftservehd-1.dens.tv/h/h77/index.m3u8",
+    "group": "Undefined",
+    "size": 221840,
+    "source": "tested"
+  },
+  {
+    "name": "Davika TV (480p)",
+    "url": "https://5bf7b725107e5.streamlock.net/davika/davika/playlist.m3u8",
+    "group": "Undefined",
+    "size": 792044,
+    "source": "tested"
+  },
+  {
+    "name": "Banyumas TV (720p) [Not 24/7]",
+    "url": "https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8",
+    "group": "Undefined",
+    "size": 1404172,
+    "source": "tested"
+  },
+  {
+    "name": "Bungo TV (480p) [Not 24/7]",
+    "url": "https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8",
+    "group": "General",
+    "size": 2059728,
+    "source": "tested"
+  },
+  {
+    "name": "DM TV Malang",
+    "url": "https://e.siar.us/live/dmtv.m3u8",
+    "group": "General",
+    "size": 336144,
+    "source": "tested"
+  },
+  {
+    "name": "Dens Learning & Knowledge [Geo-blocked]",
+    "url": "https://op-group1-swiftservehd-1.dens.tv/h/h236/index.m3u8",
+    "group": "Education",
+    "size": 967448,
+    "source": "tested"
+  },
+  {
+    "name": "Dens Play [Geo-blocked]",
+    "url": "https://op-group1-swiftservehd-1.dens.tv/h/h225/index.m3u8",
+    "group": "Lifestyle",
+    "size": 249476,
+    "source": "tested"
+  },
+  {
+    "name": "Dens ShowBiz [Geo-blocked]",
+    "url": "https://op-group1-swiftservehd-1.dens.tv/h/h203/index.m3u8",
+    "group": "Entertainment",
+    "size": 256056,
+    "source": "tested"
+  },
+  {
+    "name": "Dens Life & Style [Geo-blocked]",
+    "url": "https://op-group1-swiftservehd-1.dens.tv/h/h222/index.m3u8",
+    "group": "Lifestyle",
+    "size": 980608,
+    "source": "tested"
+  },
+  {
+    "name": "Dhoho TV (720p)",
+    "url": "https://dhohotv.siar.us/dhohotv/live/playlist.m3u8",
+    "group": "General",
+    "size": 448004,
+    "source": "tested"
+  },
+  {
+    "name": "Duta TV (360p) [Not 24/7]",
+    "url": "https://dutatv.siar.us/dutatv/live/playlist.m3u8",
+    "group": "General",
+    "size": 62980,
+    "source": "tested"
+  },
+  {
+    "name": "Dens Food Channel [Geo-blocked]",
+    "url": "https://op-group1-swiftservehd-1.dens.tv/h/h221/index.m3u8",
+    "group": "Cooking",
+    "size": 1106192,
+    "source": "tested"
+  },
+  {
+    "name": "DMI TV (576i)",
+    "url": "https://tvstreamcast.com/tawaftv.m3u8",
+    "group": "Religious",
+    "size": 329564,
+    "source": "tested"
+  },
+  {
+    "name": "Indonesiana.TV (720p)",
+    "url": "https://tvstreamcast.com/indonesiana.m3u8",
+    "group": "Entertainment",
+    "size": 413036,
+    "source": "tested"
+  },
+  {
+    "name": "Efarina TV (720p)",
+    "url": "https://live.efarinatv.com/hls/bgtaufikganteng.m3u8",
+    "group": "General",
+    "size": 554412,
+    "source": "tested"
+  },
+  {
+    "name": "Jawa Pos TV Bali (576p)",
+    "url": "http://122.248.43.242:1935/JAWAPOSTVBALI/_definst_/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 215448,
+    "source": "tested"
+  },
+  {
+    "name": "Garuda TV (1080p)",
+    "url": "https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8",
+    "group": "General",
+    "size": 1090588,
+    "source": "tested"
+  },
+  {
+    "name": "Jawa Pos TV (720p)",
+    "url": "http://122.248.43.242:1935/JAWAPOSTVSBY/_definst_/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 2752696,
+    "source": "tested"
+  },
+  {
+    "name": "Biznet Adventure (1080p)",
+    "url": "http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.m3u8",
+    "group": "Undefined",
+    "size": 3223840,
+    "source": "tested"
+  },
+  {
+    "name": "Jogja Istimewa TV (720p)",
+    "url": "http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8",
+    "group": "General",
+    "size": 265644,
+    "source": "tested"
+  },
+  {
+    "name": "JTV (480p)",
+    "url": "http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 697104,
+    "source": "tested"
+  },
+  {
+    "name": "Jawa Pos TV Madiun (720p)",
+    "url": "http://122.248.43.242:1935/JAWAPOSTVMADIUN/_definst_/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 3214236,
+    "source": "tested"
+  },
+  {
+    "name": "Jawa Pos TV Jakarta (720p)",
+    "url": "http://122.248.43.242:1935/JAWAPOSTVJKT/_definst_/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 3154264,
+    "source": "tested"
+  },
+  {
+    "name": "JTV Kediri",
+    "url": "http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 2499272,
+    "source": "tested"
+  },
+  {
+    "name": "JTV Malang",
+    "url": "http://122.248.43.242:1935/JTVMALANG/_definst_/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 1567920,
+    "source": "tested"
+  },
+  {
+    "name": "Jawa Pos TV Semarang (720p)",
+    "url": "http://122.248.43.242:1935/JAWAPOSTVSEMARANG/_definst_/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 3707172,
+    "source": "tested"
+  },
+  {
+    "name": "Kompas TV [Geo-blocked]",
+    "url": "https://op-group1-swiftservehd-1.dens.tv/h/h234/index.m3u8",
+    "group": "News",
+    "size": 966132,
+    "source": "tested"
+  },
+  {
+    "name": "JTV Madiun",
+    "url": "http://122.248.43.242:1935/JTVMADIUN/_definst_/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 2199788,
+    "source": "tested"
+  },
+  {
+    "name": "Kawanua TV (720p)",
+    "url": "http://122.248.43.242:1935/KAWANUATV/_definst_/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 2803644,
+    "source": "tested"
+  },
+  {
+    "name": "Kilisuci TV",
+    "url": "https://5bf7b725107e5.streamlock.net/kstv/kstv/playlist.m3u8",
+    "group": "General",
+    "size": 620964,
+    "source": "tested"
+  },
+  {
+    "name": "Madu TV (576p)",
+    "url": "https://re1.siar.us/madutv/hd720/playlist.m3u8",
+    "group": "General",
+    "size": 566820,
+    "source": "tested"
+  },
+  {
+    "name": "Matrix TV Yogyakarta (720p)",
+    "url": "https://stream.matrixtv.id/hls/0/stream.m3u8",
+    "group": "Undefined",
+    "size": 493312,
+    "source": "tested"
+  },
+  {
+    "name": "Biznet Kids (1080p)",
+    "url": "http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8",
+    "group": "Kids",
+    "size": 655272,
+    "source": "tested"
+  },
+  {
+    "name": "Astha TV (1080p) [Not 24/7]",
+    "url": "https://hgmtv.com:19360/asthatv/asthatv.m3u8",
+    "group": "Undefined",
+    "size": 3358395,
+    "source": "tested"
+  },
+  {
+    "name": "Biznet Lifestyle (1080p)",
+    "url": "http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/index.m3u8",
+    "group": "Lifestyle",
+    "size": 473328,
+    "source": "tested"
+  },
+  {
+    "name": "Magna Channel (1080p) [Not 24/7]",
+    "url": "https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8",
+    "group": "General",
+    "size": 847692,
+    "source": "tested"
+  },
+  {
+    "name": "MQTV (720p) [Not 24/7]",
+    "url": "https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8",
+    "group": "Religious",
+    "size": 2904412,
+    "source": "tested"
+  },
+  {
+    "name": "Moji [Geo-blocked]",
+    "url": "https://op-group1-swiftservehd-1.dens.tv/h/h207/index.m3u8",
+    "group": "General",
+    "size": 1092844,
+    "source": "tested"
+  },
+  {
+    "name": "Radar Tasikmalaya TV (720p) [Not 24/7]",
+    "url": "https://v2.siar.us/radartasikmalaya/live/playlist.m3u8",
+    "group": "Undefined",
+    "size": 654052,
+    "source": "tested"
+  },
+  {
+    "name": "Padang TV (720p) [Not 24/7]",
+    "url": "http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 1582020,
+    "source": "tested"
+  },
+  {
+    "name": "RCTV (576p) [Not 24/7]",
+    "url": "https://v10.siar.us/rctv/live/playlist.m3u8",
+    "group": "Undefined",
+    "size": 350996,
+    "source": "tested"
+  },
+  {
+    "name": "Nusantara TV (1080p)",
+    "url": "https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8",
+    "group": "General",
+    "size": 646344,
+    "source": "tested"
+  },
+  {
+    "name": "Rinjani TV",
+    "url": "https://rinjanitv.cloud/hls/tvkabel.m3u8",
+    "group": "Education",
+    "size": 427700,
+    "source": "tested"
+  },
+  {
+    "name": "Rodja TV (720p)",
+    "url": "https://rodjatv.com/rodjatv/live.m3u8",
+    "group": "Undefined",
+    "size": 755384,
+    "source": "tested"
+  },
+  {
+    "name": "Salira TV (720p)",
+    "url": "https://live.salira.tv/p/3870/hybrid/play.m3u8",
+    "group": "Culture;Lifestyle",
+    "size": 1164284,
+    "source": "tested"
+  },
+  {
+    "name": "Sakti TV (720p)",
+    "url": "https://saktitv.siar.us/saktitv/live/playlist.m3u8",
+    "group": "Undefined",
+    "size": 547832,
+    "source": "tested"
+  },
+  {
+    "name": "SMTV (720p)",
+    "url": "https://e.siar.us/live/smtv.m3u8",
+    "group": "Undefined",
+    "size": 683192,
+    "source": "tested"
+  },
+  {
+    "name": "I Am Channel (576p)",
+    "url": "https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist.m3u8",
+    "group": "Religious",
+    "size": 1064470,
+    "source": "tested"
+  },
+  {
+    "name": "Stara TV (720p)",
+    "url": "https://stream.staratv.id/hls/0/stream.m3u8",
+    "group": "Undefined",
+    "size": 1201696,
+    "source": "tested"
+  },
+  {
+    "name": "Stara TV Bojonegoro (720p)",
+    "url": "https://bojonegoro.staratv.id/hls/stream.m3u8",
+    "group": "Undefined",
+    "size": 495004,
+    "source": "tested"
+  },
+  {
+    "name": "Stara TV Bandung (1080p)",
+    "url": "https://bandung.staratv.id/hls/0/stream.m3u8",
+    "group": "Undefined",
+    "size": 1207900,
+    "source": "tested"
+  },
+  {
+    "name": "PKTV (480p)",
+    "url": "https://streaming.id18.tunnel.my.id/hls/stream.m3u8",
+    "group": "Undefined",
+    "size": 394236,
+    "source": "tested"
+  },
+  {
+    "name": "Stara TV Jakarta (1080p)",
+    "url": "https://jakarta.staratv.id/hls/0/stream.m3u8",
+    "group": "Undefined",
+    "size": 404764,
+    "source": "tested"
+  },
+  {
+    "name": "Stara TV Cianjur (720p)",
+    "url": "https://cianjur.staratv.id/hls/0/stream.m3u8",
+    "group": "Undefined",
+    "size": 1163532,
+    "source": "tested"
+  },
+  {
+    "name": "STV (720p) [Not 24/7]",
+    "url": "http://122.248.43.242:1935/SAMARINDATV/_definst_/myStream/playlist.m3u8",
+    "group": "Undefined",
+    "size": 1156388,
+    "source": "tested"
+  },
+  {
+    "name": "Stara TV Parahyangan (720p)",
+    "url": "https://parahyangan.staratv.id/hls/0/stream.m3u8",
+    "group": "Undefined",
+    "size": 442364,
+    "source": "tested"
+  },
+  {
+    "name": "Angel TV Indonesia (720p)",
+    "url": "https://janya-digimix.akamaized.net/vglive-sk-234616/indonesia/ngrp:angelindonesia_all/playlist.m3u8",
+    "group": "Religious",
+    "size": 1231253,
+    "source": "tested"
+  },
+  {
+    "name": "Surabaya TV (1080p)",
+    "url": "https://e.siar.us/live/surabayatv.m3u8",
+    "group": "Undefined",
+    "size": 713084,
+    "source": "tested"
+  },
+  {
+    "name": "TATV (720p) [Not 24/7]",
+    "url": "https://v2.siar.us/tatv/live.sdp/playlist.m3u8",
+    "group": "Undefined",
+    "size": 1054492,
+    "source": "tested"
+  },
+  {
+    "name": "TV Tabalong (720p) [Not 24/7]",
+    "url": "https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8",
+    "group": "Undefined",
+    "size": 760460,
+    "source": "tested"
+  },
+  {
+    "name": "Stara TV Malang (1080p)",
+    "url": "https://malang.staratv.id/hls/0/stream.m3u8",
+    "group": "Undefined",
+    "size": 1725276,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Bangka Belitung (480p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Babel/hls/Babel.m3u8",
+    "group": "General",
+    "size": 286136,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Bengkulu (480p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Bengkulu/hls/Bengkulu.m3u8",
+    "group": "General",
+    "size": 280120,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Jakarta (576i) [Not 24/7]",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8",
+    "group": "General",
+    "size": 286136,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Gorontalo (480p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Gorontalo/hls/Gorontalo.m3u8",
+    "group": "General",
+    "size": 280120,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI (480p) [Geo-blocked]",
+    "url": "https://op-group1-swiftservesd-1.dens.tv/s/s11/index.m3u8",
+    "group": "General",
+    "size": 310576,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Jambi (720p) [Not 24/7]",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Jambi/hls/Jambi.m3u8",
+    "group": "General",
+    "size": 286136,
+    "source": "tested"
+  },
+  {
+    "name": "Timor TV (1080p)",
+    "url": "http://122.248.43.242:1935/TIMORTV/_definst_/myStream/playlist.m3u8",
+    "group": "Undefined",
+    "size": 1807996,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Kalimantan Timur (720p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8",
+    "group": "General",
+    "size": 280120,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Kalimantan Selatan (720p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Kalsel/hls/Kalsel.m3u8",
+    "group": "General",
+    "size": 286136,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Kalimantan Barat (480p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Kalbar/hls/Kalbar.m3u8",
+    "group": "General",
+    "size": 280120,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Kalimantan Tengah (480p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Kalteng/hls/Kalteng.m3u8",
+    "group": "General",
+    "size": 280120,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI North Sulawesi (1080p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Sulut/hls/Sulut.m3u8",
+    "group": "General",
+    "size": 286136,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Lampung (720p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Lampung/hls/Lampung.m3u8",
+    "group": "General",
+    "size": 286136,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Nusa Tenggara Timur (480p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/NTT/hls/NTT.m3u8",
+    "group": "General",
+    "size": 280120,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Maluku (480p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Ambon/hls/Ambon.m3u8",
+    "group": "General",
+    "size": 280120,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Nusa Tenggara Barat (720p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/NTB/hls/NTB.m3u8",
+    "group": "General",
+    "size": 286136,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Sulawesi Barat (720p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Sulbar/hls/Sulbar.m3u8",
+    "group": "General",
+    "size": 286136,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI North Sumatra (1080p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Sumut/hls/Sumut.m3u8",
+    "group": "General",
+    "size": 280120,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Sulawesi Selatan (480p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Sulsel/hls/Sulsel.m3u8",
+    "group": "General",
+    "size": 280120,
+    "source": "tested"
+  },
+  {
+    "name": "TV9 Nusantara (720p)",
+    "url": "https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8",
+    "group": "Undefined",
+    "size": 2837860,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Riau (720p) [Not 24/7]",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Riau/hls/Riau.m3u8",
+    "group": "General",
+    "size": 286136,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Papua (480p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Papua/hls/Papua.m3u8",
+    "group": "General",
+    "size": 280120,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Sumatera Barat (720p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Sumbar/hls/Sumbar.m3u8",
+    "group": "General",
+    "size": 286136,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Sulawesi Tengah (720p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Sulteng/hls/Sulteng.m3u8",
+    "group": "General",
+    "size": 280120,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Sulawesi Tenggara (480p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Sultra/hls/Sultra.m3u8",
+    "group": "General",
+    "size": 286136,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI West Papua (1080p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Pabar/hls/Pabar.m3u8",
+    "group": "General",
+    "size": 280120,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI World (1080p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8",
+    "group": "Undefined",
+    "size": 511736,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Yogyakarta (720p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8",
+    "group": "General",
+    "size": 286136,
+    "source": "tested"
+  },
+  {
+    "name": "TVKU (720p)",
+    "url": "https://tvku.tv/hlsstream/hls/live.m3u8",
+    "group": "Undefined",
+    "size": 1704972,
+    "source": "tested"
+  },
+  {
+    "name": "TVR Parlemen (720p) [Not 24/7]",
+    "url": "http://103.18.181.69:1935/golive/livestream/playlist.m3u8",
+    "group": "Legislative",
+    "size": 2603800,
+    "source": "tested"
+  },
+  {
+    "name": "TVRI Sumatera Selatan (480p)",
+    "url": "https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8",
+    "group": "General",
+    "size": 280120,
+    "source": "tested"
+  },
+  {
+    "name": "GSTV (720p)",
+    "url": "https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9643ce4/index.qfm/manifest(format=m3u8-cmaf)",
+    "group": "Shop",
+    "size": 1011839,
+    "source": "tested"
+  },
+  {
+    "name": "CGNTV Japan (1080p)",
+    "url": "https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8",
+    "group": "Religious",
+    "size": 3254280,
+    "source": "tested"
+  },
+  {
+    "name": "Weathernews (720p)",
+    "url": "https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8",
+    "group": "Weather",
+    "size": 346860,
+    "source": "tested"
+  },
+  {
+    "name": "Shop Channel (1080p) [Not 24/7]",
+    "url": "https://stream3.shopch.jp/HLS/master.m3u8",
+    "group": "Shop",
+    "size": 2069316,
+    "source": "tested"
+  },
+  {
+    "name": "QVC (1080p)",
+    "url": "https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8",
+    "group": "Shop",
+    "size": 780952,
+    "source": "tested"
+  },
+  {
+    "name": "ABN TV (720p)",
+    "url": "https://vod2.abn.co.kr/IPHONE/abn.m3u8",
+    "group": "General",
+    "size": 605360,
+    "source": "tested"
+  },
+  {
+    "name": "JOAX-DTV",
+    "url": "https://ntv5.mov3.co/hls/ntv.m3u8",
+    "group": "General",
+    "size": 761024,
+    "source": "tested"
+  },
+  {
+    "name": "JORX-DTV",
+    "url": "https://tbs5.mov3.co/hls/tbs.m3u8",
+    "group": "General",
+    "size": 730380,
+    "source": "tested"
+  },
+  {
+    "name": "Arirang Radio (720p)",
+    "url": "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8",
+    "group": "General",
+    "size": 148896,
+    "source": "tested"
+  },
+  {
+    "name": "JOCX-DTV",
+    "url": "https://fujitv4.mov3.co/hls/fujitv.m3u8",
+    "group": "General",
+    "size": 925524,
+    "source": "tested"
+  },
+  {
+    "name": "Arirang TV (1080p)",
+    "url": "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+    "group": "General;News",
+    "size": 163560,
+    "source": "tested"
+  },
+  {
+    "name": "Arirang TV HD",
+    "url": "https://dash3.antik.sk/live/test_arirang/playlist.m3u8",
+    "group": "General;News",
+    "size": 1519040,
+    "source": "tested"
+  },
+  {
+    "name": "BTN TV (1080p)",
+    "url": "https://btn.nowcdn.co.kr/btn/btnlive2m/playlist.m3u8",
+    "group": "Religious",
+    "size": 2939756,
+    "source": "tested"
+  },
+  {
+    "name": "EBS 1 (400p) [Not 24/7]",
+    "url": "https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8",
+    "group": "Education",
+    "size": 1389508,
+    "source": "tested"
+  },
+  {
+    "name": "CJ OnStyle (540p)",
+    "url": "https://live-ch1.cjonstyle.net/cjmalllive/stream2/playlist.m3u8",
+    "group": "Shop",
+    "size": 1113524,
+    "source": "tested"
+  },
+  {
+    "name": "CJ OnStyle Plus (540p)",
+    "url": "https://live-ch2.cjonstyle.net/cjosplus/live2/playlist.m3u8",
+    "group": "Shop",
+    "size": 724740,
+    "source": "tested"
+  },
+  {
+    "name": "EBS kids (400p) [Not 24/7]",
+    "url": "https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8",
+    "group": "Kids",
+    "size": 1437824,
+    "source": "tested"
+  },
+  {
+    "name": "FGTV (720p)",
+    "url": "https://fgtvlive.fgtv.com/smil:fgtv.smil/playlist.m3u8",
+    "group": "Religious",
+    "size": 1124616,
+    "source": "tested"
+  },
+  {
+    "name": "EBS+ 2 (400p)",
+    "url": "https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8",
+    "group": "Education",
+    "size": 1389508,
+    "source": "tested"
+  },
+  {
+    "name": "EBS+ 1 (400p)",
+    "url": "https://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8",
+    "group": "Education",
+    "size": 1429364,
+    "source": "tested"
+  },
+  {
+    "name": "GS Shop (1080p)",
+    "url": "https://gstv-gsshop.gsshop.com/gsshop_hd/gsshop_hd.stream/playlist.m3u8",
+    "group": "Shop",
+    "size": 751812,
+    "source": "tested"
+  },
+  {
+    "name": "JOEX-DTV (540p)",
+    "url": "https://tvasahi.mov3.co/hls/tvasahi.m3u8",
+    "group": "General",
+    "size": 1053364,
+    "source": "tested"
+  },
+  {
+    "name": "EBS E (400p) [Not 24/7]",
+    "url": "https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8",
+    "group": "Education",
+    "size": 1388004,
+    "source": "tested"
+  },
+  {
+    "name": "EBS 2 (400p) [Not 24/7]",
+    "url": "https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8",
+    "group": "Education",
+    "size": 1387628,
+    "source": "tested"
+  },
+  {
+    "name": "GCN24 Korean (720p)",
+    "url": "http://liveko24-manminglobal3.ktcdn.co.kr/liveko24/gcnko_1300k.stream/playlist.m3u8",
+    "group": "Religious",
+    "size": 993016,
+    "source": "tested"
+  },
+  {
+    "name": "Hyundai Home Shopping (720p)",
+    "url": "https://livejj.hyundaihmall.com:8443/live/ngrp:hmall.stream_pc/playlist.m3u8",
+    "group": "Shop",
+    "size": 258312,
+    "source": "tested"
+  },
+  {
+    "name": "Lotte Home Shopping (720p)",
+    "url": "https://pchlslivesw.lotteimall.com/live/livestream/lotteimalllive_mp4.m3u8",
+    "group": "Shop",
+    "size": 390852,
+    "source": "tested"
+  },
+  {
+    "name": "Lotte OneTV (720p)",
+    "url": "https://onetvhlslive.lotteimall.com/lotteonetvlive/lotteonetvlive.mp4.m3u8",
+    "group": "Shop",
+    "size": 358704,
+    "source": "tested"
+  },
+  {
+    "name": "Gongyoung Shopping (720p)",
+    "url": "https://etv.publichs.com/live5.stream/playlist.m3u8",
+    "group": "Shop",
+    "size": 755384,
+    "source": "tested"
+  },
+  {
+    "name": "Hyundai Home Shopping Plus (720p)",
+    "url": "https://dtvstreaming.hyundaihmall.com/newcjp3/_definst_/newcjpstream.smil/playlist.m3u8",
+    "group": "Shop",
+    "size": 867432,
+    "source": "tested"
+  },
+  {
+    "name": "MBC Daejeon (\ub300\uc804 MBC) (720p) [Not 24/7]",
+    "url": "https://ns1.tjmbc.co.kr/live/myStream.sdp/playlist.m3u8",
+    "group": "General",
+    "size": 277488,
+    "source": "tested"
+  },
+  {
+    "name": "GS My Shop (1080p)",
+    "url": "https://gstv-myshop.gsshop.com/myshop_hd/myshop_hd.stream/playlist.m3u8",
+    "group": "Shop",
+    "size": 840548,
+    "source": "tested"
+  },
+  {
+    "name": "Gugbang TV (1080p) [Not 24/7]",
+    "url": "http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8",
+    "group": "News",
+    "size": 5391652,
+    "source": "tested"
+  },
+  {
+    "name": "Korea TV (1080p)",
+    "url": "https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8",
+    "group": "Legislative;News",
+    "size": 5364016,
+    "source": "tested"
+  },
+  {
+    "name": "GugakTV \uad6d\uc545\ubc29\uc1a1 (1080p)",
+    "url": "https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8",
+    "group": "Music",
+    "size": 5511032,
+    "source": "tested"
+  },
+  {
+    "name": "KCTV \uad11\uc8fc CH05 (720p) [Not 24/7]",
+    "url": "http://119.77.96.184:1935/chn05/chn05/playlist.m3u8",
+    "group": "General",
+    "size": 5795288,
+    "source": "tested"
+  },
+  {
+    "name": "NBS Korea Agricultural Broadcasting (720p)",
+    "url": "https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8",
+    "group": "Education",
+    "size": 254364,
+    "source": "tested"
+  },
+  {
+    "name": "MBC Chungbuk (MBC \ucda9\ubd81) (720p) [Not 24/7]",
+    "url": "http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8",
+    "group": "General",
+    "size": 862920,
+    "source": "tested"
+  },
+  {
+    "name": "RUTC TV (720p)",
+    "url": "http://d26sxnc75smwvh.cloudfront.net/livehttporigin/rutclive_720p2.stream/playlist.m3u8",
+    "group": "Religious",
+    "size": 3371216,
+    "source": "tested"
+  },
+  {
+    "name": "GoodTV (1080p)",
+    "url": "http://mobliestream.c3tv.com:1935/live/goodtv.sdp/playlist.m3u8",
+    "group": "Religious",
+    "size": 3492836,
+    "source": "tested"
+  },
+  {
+    "name": "MBC Yeosu (\uc5ec\uc218 MBC) (1080p) [Not 24/7]",
+    "url": "https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8",
+    "group": "General",
+    "size": 350996,
+    "source": "tested"
+  },
+  {
+    "name": "OUN (1080p)",
+    "url": "https://live.knou.ac.kr/knou1/live1/playlist.m3u8",
+    "group": "Education",
+    "size": 1116344,
+    "source": "tested"
+  },
+  {
+    "name": "MBC Mokpo (\ubaa9\ud3ec MBC) (720p) [Not 24/7]",
+    "url": "http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8",
+    "group": "General",
+    "size": 1320700,
+    "source": "tested"
+  },
+  {
+    "name": "SBS CJB (540p) [Not 24/7]",
+    "url": "http://1.222.207.80:1935/live/cjbtv/playlist.m3u8",
+    "group": "General",
+    "size": 217704,
+    "source": "tested"
+  },
+  {
+    "name": "MBC Chuncheon (\ucd98\ucc9c MBC) (480p) [Not 24/7]",
+    "url": "https://stream.chmbc.co.kr/TV/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 3928260,
+    "source": "tested"
+  },
+  {
+    "name": "SBS KBC (1080p) [Not 24/7]",
+    "url": "https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8",
+    "group": "General",
+    "size": 516248,
+    "source": "tested"
+  },
+  {
+    "name": "NHTV (720p)",
+    "url": "http://nonghyup.flive.skcdn.com/nonghyup/_definst_/nhlive/playlist.m3u8",
+    "group": "Entertainment",
+    "size": 2621848,
+    "source": "tested"
+  },
+  {
+    "name": "SBS JIBS (720p) [Not 24/7]",
+    "url": "http://123.140.197.22/stream/1/play.m3u8",
+    "group": "General",
+    "size": 2487616,
+    "source": "tested"
+  },
+  {
+    "name": "TV Chosun 2 (720p)",
+    "url": "http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8",
+    "group": "Undefined",
+    "size": 2940884,
+    "source": "tested"
+  },
+  {
+    "name": "TBS Seoul (720p)",
+    "url": "https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8",
+    "group": "Undefined",
+    "size": 2362408,
+    "source": "tested"
+  },
+  {
+    "name": "Shopping NT (720p)",
+    "url": "https://live.shoppingntmall.com/live/10011.m3u8",
+    "group": "Shop",
+    "size": 2381208,
+    "source": "tested"
+  },
+  {
+    "name": "SBS JTV (406p) [Not 24/7]",
+    "url": "http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8",
+    "group": "General",
+    "size": 824004,
+    "source": "tested"
+  },
+  {
+    "name": "Bread TV\u9762\u5305\u53f0 (720p)",
+    "url": "https://video.bread-tv.com:8091/hls-live24/online/index.m3u8",
+    "group": "Undefined",
+    "size": 2998412,
+    "source": "tested"
+  },
+  {
+    "name": "CCTV+ 1 (600p) [Not 24/7]",
+    "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL1.smil/playlist.m3u8",
+    "group": "News",
+    "size": 571144,
+    "source": "tested"
+  },
+  {
+    "name": "CCTV+ 2 (600p) [Not 24/7]",
+    "url": "https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8",
+    "group": "News",
+    "size": 494440,
+    "source": "tested"
+  },
+  {
+    "name": "Shinsegae Shopping TV (720p)",
+    "url": "https://liveout.catenoid.net/live-02-shinsegaetvshopping/shinsegaetvshopping_720p/playlist.m3u8",
+    "group": "Shop",
+    "size": 606864,
+    "source": "tested"
+  },
+  {
+    "name": "ABN China (720p)",
+    "url": "https://mediaserver.abnvideos.com/streams/abnchina.m3u8",
+    "group": "Religious",
+    "size": 399312,
+    "source": "tested"
+  },
+  {
+    "name": "Ando TV (1080p)",
+    "url": "http://play.kankanlive.com/live/1711956137852982.m3u8",
+    "group": "Religious",
+    "size": 241956,
+    "source": "tested"
+  },
+  {
+    "name": "SBS G1 (360p) [Not 24/7]",
+    "url": "http://61.82.49.4:1935/live/_definst_/tv.stream/playlist.m3u8",
+    "group": "General",
+    "size": 3401484,
+    "source": "tested"
+  },
+  {
+    "name": "CCTV-1 (720p)",
+    "url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
+    "group": "General",
+    "size": 1649136,
+    "source": "tested"
+  },
+  {
+    "name": "W Shopping (720p)",
+    "url": "https://liveout.catenoid.net/live-05-wshopping/wshopping_1500k/playlist.m3u8",
+    "group": "Shop",
+    "size": 2092816,
+    "source": "tested"
+  },
+  {
+    "name": "CCTV-4K (1080p)",
+    "url": "http://198.204.240.250:82/live/cctv4k.m3u8",
+    "group": "General",
+    "size": 3149188,
+    "source": "tested"
+  },
+  {
+    "name": "CCTV-3 (720p)",
+    "url": "http://74.91.26.218:82/live/cctv3hd.m3u8",
+    "group": "Entertainment",
+    "size": 3243188,
+    "source": "tested"
+  },
+  {
+    "name": "CCTV-12 (720p)",
+    "url": "http://74.91.26.218:82/live/cctv12hd.m3u8",
+    "group": "Lifestyle",
+    "size": 1054492,
+    "source": "tested"
+  },
+  {
+    "name": "CCTV-9 (576i)",
+    "url": "https://xykt-fix.github.io/Y77.m3u8",
+    "group": "Documentary",
+    "size": 162056,
+    "source": "tested"
+  },
+  {
+    "name": "Dragon TV International (480p) [Geo-blocked]",
+    "url": "https://op-group1-swiftservesd-1.dens.tv/s/s29/index.m3u8",
+    "group": "General",
+    "size": 79336,
+    "source": "tested"
+  },
+  {
+    "name": "CCTV-1 (1080p)",
+    "url": "http://69.30.245.50/live/cctv1.m3u8",
+    "group": "General",
+    "size": 4687592,
+    "source": "tested"
+  },
+  {
+    "name": "CCTV-6 (1080p)",
+    "url": "http://69.30.245.50/live/cctv6.m3u8",
+    "group": "Movies",
+    "size": 4228308,
+    "source": "tested"
+  },
+  {
+    "name": "Hunan TV (2160p)",
+    "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
+    "group": "Undefined",
+    "size": 1075172,
+    "source": "tested"
+  },
+  {
+    "name": "Home Plus",
+    "url": "https://homeplushls.wns.live/hls/stream.m3u8",
+    "group": "Movies",
+    "size": 1350404,
+    "source": "tested"
+  },
+  {
+    "name": "Chifeng Comprehensive News Chanel",
+    "url": "http://play1-qk.nmtv.cn/live/1735546697341033.m3u8",
+    "group": "News",
+    "size": 962372,
+    "source": "tested"
+  },
+  {
+    "name": "Angel TV Chinese (720p)",
+    "url": "https://janya-digimix.akamaized.net/vglive-sk-999451/chinese/ngrp:angelchinese_all/playlist.m3u8",
+    "group": "Religious",
+    "size": 158314,
+    "source": "tested"
+  },
+  {
+    "name": "Guangzhou TV",
+    "url": "https://tencentplaybusiness.gztv.com/live/zonghes.m3u8",
+    "group": "General",
+    "size": 778508,
+    "source": "tested"
+  },
+  {
+    "name": "Nei Monggol TV (960p)",
+    "url": "https://cdn4.skygo.mn/live/disk1/NeigMGL/HLSv3-FTA/NeigMGL.m3u8",
+    "group": "Undefined",
+    "size": 1179512,
+    "source": "tested"
+  },
+  {
+    "name": "Harbin Comprehensive News Channel",
+    "url": "https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594",
+    "group": "News",
+    "size": 626228,
+    "source": "tested"
+  },
+  {
+    "name": "CCTV-15 (1080p)",
+    "url": "https://xykt-fix.github.io/play/a02e/index.m3u8",
+    "group": "Music",
+    "size": 70013,
+    "source": "tested"
+  },
+  {
+    "name": "Harbin Movie Channel",
+    "url": "https://stream.hrbtv.net/yspd/playlist.m3u8",
+    "group": "Movies",
+    "size": 387280,
+    "source": "tested"
+  },
+  {
+    "name": "Hebei TV (2160p)",
+    "url": "https://event.pull.hebtv.com/live/live101.m3u8",
+    "group": "General",
+    "size": 3722588,
+    "source": "tested"
+  },
+  {
+    "name": "VOA\u7f8e\u56fd\u4e4b\u97f3 (1080p)",
+    "url": "https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8",
+    "group": "Undefined",
+    "size": 7222960,
+    "source": "tested"
+  },
+  {
+    "name": "QTV-1",
+    "url": "http://video10.qtv.com.cn/drm/qtv1at/manifest.m3u8",
+    "group": "News",
+    "size": 1431056,
+    "source": "tested"
+  },
+  {
+    "name": "QTV-2",
+    "url": "http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8",
+    "group": "Lifestyle",
+    "size": 1431056,
+    "source": "tested"
+  },
+  {
+    "name": "QTV-3",
+    "url": "http://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8",
+    "group": "Movies",
+    "size": 1450984,
+    "source": "tested"
+  },
+  {
+    "name": "QTV-5",
+    "url": "http://video10.qtv.com.cn/drm/qtv5at/manifest.m3u8",
+    "group": "General",
+    "size": 1428612,
+    "source": "tested"
+  },
+  {
+    "name": "QTV-6",
+    "url": "http://video10.qtv.com.cn/drm/qtv6at/manifest.m3u8",
+    "group": "Kids;Lifestyle",
+    "size": 1433312,
+    "source": "tested"
+  },
+  {
+    "name": "Siping TV",
+    "url": "http://stream2.jlntv.cn/sptv/sd/live.m3u8?_upt=f27750421743154598",
+    "group": "General",
+    "size": 272976,
+    "source": "tested"
+  },
+  {
+    "name": "Tonghua TV (1080p)",
+    "url": "http://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8",
+    "group": "News",
+    "size": 704436,
+    "source": "tested"
+  },
+  {
+    "name": "QTV-4",
+    "url": "http://video10.qtv.com.cn/drm/qtv4at/manifest.m3u8",
+    "group": "General",
+    "size": 1433500,
+    "source": "tested"
+  },
+  {
+    "name": "Zhejiang TV International",
+    "url": "https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8",
+    "group": "Undefined",
+    "size": 1043024,
+    "source": "tested"
+  },
+  {
+    "name": "TV BRICS Chinese (1080p)",
+    "url": "https://chibrics.mediacdn.ru/cdn/brics/chinese/playlist.m3u8",
+    "group": "General",
+    "size": 2995968,
+    "source": "tested"
+  },
+  {
+    "name": "Xinjiang TV 2",
+    "url": "http://110.153.180.106:55555/out_3/index.m3u8",
+    "group": "Undefined",
+    "size": 5649588,
+    "source": "tested"
+  },
+  {
+    "name": "Xinjiang TV 3",
+    "url": "http://110.153.180.106:55555/out_2/index.m3u8",
+    "group": "Undefined",
+    "size": 5648648,
+    "source": "tested"
+  },
+  {
+    "name": "Xinjiang TV 8",
+    "url": "http://120.70.60.179:9901/tsfile/live/1002_1.m3u8?authid=0&key=txiptv&playlive=1",
+    "group": "Undefined",
+    "size": 350691,
+    "source": "tested"
+  },
+  {
+    "name": "\u767d\u57ce\u65b0\u95fb\u7efc\u5408 [Geo-blocked]",
+    "url": "https://stream2.jlntv.cn/baicheng1/sd/live.m3u8",
+    "group": "General",
+    "size": 195520,
+    "source": "tested"
+  },
+  {
+    "name": "ACCDN (1080p)",
+    "url": "https://raycom-accdn-firetv.amagi.tv/playlist.m3u8",
+    "group": "Sports",
+    "size": 314712,
+    "source": "tested"
+  },
+  {
+    "name": ":\u0160port (1080p)",
+    "url": "http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8",
+    "group": "Sports",
+    "size": 3064776,
+    "source": "tested"
+  },
+  {
+    "name": "ACI Sport TV (1080p)",
+    "url": "https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8",
+    "group": "Sports",
+    "size": 805016,
+    "source": "tested"
+  },
+  {
+    "name": "ADO TV (720p)",
+    "url": "https://strhls.streamakaci.tv/ortb/ortb2-multi/playlist.m3u8",
+    "group": "Kids;Sports",
+    "size": 1037948,
+    "source": "tested"
+  },
+  {
+    "name": "Alkass SHOOF 2 (1080p)",
+    "url": "https://liveeu-gcp.alkassdigital.net/shooflive2/main.m3u8",
+    "group": "Sports",
+    "size": 4909620,
+    "source": "tested"
+  },
+  {
+    "name": "Alkass SHOOF (1080p)",
+    "url": "https://liveeu-gcp.alkassdigital.net/shooflive/main.m3u8",
+    "group": "Sports",
+    "size": 5357436,
+    "source": "tested"
+  },
+  {
+    "name": "ATG Live (720p)",
+    "url": "https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-HL/atg-kanal-15-02a-rr.m3u8",
+    "group": "Sports",
+    "size": 222968,
+    "source": "tested"
+  },
+  {
+    "name": "CazeTV (1080i)",
+    "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8",
+    "group": "Sports",
+    "size": 602728,
+    "source": "tested"
+  },
+  {
+    "name": "Arryadia HD 2 (1080p)",
+    "url": "https://stream-lb.livemediama.com/arryadia-hd-02/hls/master.m3u8",
+    "group": "Sports",
+    "size": 2424824,
+    "source": "tested"
+  },
+  {
+    "name": "Al Iraqia Sport (720p)",
+    "url": "https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8",
+    "group": "Sports",
+    "size": 262144,
+    "source": "tested"
+  },
+  {
+    "name": "AS3 Sport TV (1080p)",
+    "url": "https://streamtv.as3sport.online:3394/hybrid/play.m3u8",
+    "group": "Sports",
+    "size": 748616,
+    "source": "tested"
+  },
+  {
+    "name": "Cricket Gold (1080p)",
+    "url": "https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8",
+    "group": "Sports",
+    "size": 3556772,
+    "source": "tested"
+  },
+  {
+    "name": "Arryadia HD TNT (1080p)",
+    "url": "https://stream-lb.livemediama.com/arryadia-tnt/hls/master.m3u8",
+    "group": "Sports",
+    "size": 2279124,
+    "source": "tested"
+  },
+  {
+    "name": "BEK TV Sports West (720p)",
+    "url": "https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playlist.m3u8",
+    "group": "Sports",
+    "size": 4651308,
+    "source": "tested"
+  },
+  {
+    "name": "DAZN Combat (1080p)",
+    "url": "https://dazn-combat-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-dazn-combat-rakuten/CDN/master.m3u8",
+    "group": "Sports",
+    "size": 334640,
+    "source": "tested"
+  },
+  {
+    "name": "DD Sports SD (1080p)",
+    "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
+    "group": "Sports",
+    "size": 328060,
+    "source": "tested"
+  },
+  {
+    "name": "Arryadia HD 3 (1080p)",
+    "url": "https://stream-lb.livemediama.com/arryadia-hd-03/hls/master.m3u8",
+    "group": "Sports",
+    "size": 2353196,
+    "source": "tested"
+  },
+  {
+    "name": "Bahrain Sports 2 (720p) [Not 24/7]",
+    "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8",
+    "group": "Sports",
+    "size": 2689152,
+    "source": "tested"
+  },
+  {
+    "name": "\u0110\u1ed3ng Nai 2 (480p) [Not 24/7]",
+    "url": "http://118.107.85.4:1935/live/smil:DNTV2.smil/chunklist.m3u8",
+    "group": "Entertainment;Sports",
+    "size": 795428,
+    "source": "tested"
+  },
+  {
+    "name": "ESPN8 The Ocho (1080p)",
+    "url": "https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8",
+    "group": "Sports",
+    "size": 1252832,
+    "source": "tested"
+  },
+  {
+    "name": "DraftKings Network (1080p)",
+    "url": "https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8",
+    "group": "Sports",
+    "size": 2944644,
+    "source": "tested"
+  },
+  {
+    "name": "Equalympic (1080p)",
+    "url": "https://iptv.prosto.tv/ch215/index.m3u8",
+    "group": "Sports",
+    "size": 634688,
+    "source": "tested"
+  },
+  {
+    "name": "Fast&FunBox (1080p)",
+    "url": "https://iptv.prosto.tv/ch120/index.m3u8",
+    "group": "Sports",
+    "size": 634688,
+    "source": "tested"
+  },
+  {
+    "name": "Equidia (1080p)",
+    "url": "https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8",
+    "group": "Sports",
+    "size": 724928,
+    "source": "tested"
+  },
+  {
+    "name": "FIFA+ French (720p)",
+    "url": "https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8",
+    "group": "Sports",
+    "size": 934172,
+    "source": "tested"
+  },
+  {
+    "name": "FIFA+ Hispanic America (720p)",
+    "url": "https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8",
+    "group": "Sports",
+    "size": 407208,
+    "source": "tested"
+  },
+  {
+    "name": "FIFA+ United States (720p)",
+    "url": "https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8",
+    "group": "Sports",
+    "size": 886044,
+    "source": "tested"
+  },
+  {
+    "name": "FIFA+ Italy (720p)",
+    "url": "https://5d95f7d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0ZJRkFQbHVzSXRhbGlhbl9ITFM/playlist.m3u8",
+    "group": "Sports",
+    "size": 461164,
+    "source": "tested"
+  },
+  {
+    "name": "FIFA+ German (720p)",
+    "url": "https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8",
+    "group": "Sports",
+    "size": 345920,
+    "source": "tested"
+  },
+  {
+    "name": "FIFA+ Portuguese (720p)",
+    "url": "https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8",
+    "group": "Sports",
+    "size": 402508,
+    "source": "tested"
+  },
+  {
+    "name": "\u010cT Sport (720p)",
+    "url": "proxy?url=http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8&referer=http://www.ceskatelevize.cz/sport/&origin=http://www.ceskatelevize.cz",
+    "group": "Sports",
+    "size": 1027973,
+    "source": "tested",
+    "proxy": {
+      "referer": "http://www.ceskatelevize.cz/sport/",
+      "origin": "http://www.ceskatelevize.cz"
+    }
+  },
+  {
+    "name": "FIFA+ Spain (720p)",
+    "url": "https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8",
+    "group": "Sports",
+    "size": 801632,
+    "source": "tested"
+  },
+  {
+    "name": "FloHockey 24/7 (1080p)",
+    "url": "https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playlist.m3u8",
+    "group": "Sports",
+    "size": 351372,
+    "source": "tested"
+  },
+  {
+    "name": "FIFA+ Women (720p)",
+    "url": "https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8",
+    "group": "Sports",
+    "size": 645404,
+    "source": "tested"
+  },
+  {
+    "name": "FightBox",
+    "url": "https://iptv.prosto.tv/ch118/index.m3u8",
+    "group": "Sports",
+    "size": 634688,
+    "source": "tested"
+  },
+  {
+    "name": "FloRacing 24/7 (1080p)",
+    "url": "https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8",
+    "group": "Sports",
+    "size": 342724,
+    "source": "tested"
+  },
+  {
+    "name": "FUEL TV (1080p)",
+    "url": "https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8",
+    "group": "Sports",
+    "size": 823252,
+    "source": "tested"
+  },
+  {
+    "name": "Fuel TV (1080p)",
+    "url": "https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8",
+    "group": "Sports",
+    "size": 695412,
+    "source": "tested"
+  },
+  {
+    "name": "Fox Deportes (1280p)",
+    "url": "https://cors-proxy.cooks.fyi/http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8",
+    "group": "Sports",
+    "size": 3164416,
+    "source": "tested"
+  },
+  {
+    "name": "Horse TV (720p)",
+    "url": "https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8",
+    "group": "Sports",
+    "size": 2042432,
+    "source": "tested"
+  },
+  {
+    "name": "GLORY Kickboxing (720p)",
+    "url": "https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8",
+    "group": "Sports",
+    "size": 865552,
+    "source": "tested"
+  },
+  {
+    "name": "FTF Sports (720p)",
+    "url": "https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8",
+    "group": "Sports",
+    "size": 555540,
+    "source": "tested"
+  },
+  {
+    "name": "ITV Deportes (720p)",
+    "url": "https://thm-it-roku.otteravision.com/thm/it/it.m3u8",
+    "group": "Entertainment;Sports",
+    "size": 2965700,
+    "source": "tested"
+  },
+  {
+    "name": "Gol Classics (1080p)",
+    "url": "https://d71gqtnep83vb.cloudfront.net/gol_classics/gol_classics.m3u8",
+    "group": "Sports",
+    "size": 4021508,
+    "source": "tested"
+  },
+  {
+    "name": "INTROUBLE (1080p)",
+    "url": "https://amg00861-amg00861c6-stirr-us-8229.playouts.now.amagi.tv/playlist.m3u8",
+    "group": "Auto;Outdoor;Sports",
+    "size": 672100,
+    "source": "tested"
+  },
+  {
+    "name": "KTV Sport (1080p)",
+    "url": "https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8",
+    "group": "Sports",
+    "size": 222216,
+    "source": "tested"
+  },
+  {
+    "name": "HTSpor TV (1080p)",
+    "url": "https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web",
+    "group": "Sports",
+    "size": 517940,
+    "source": "tested"
+  },
+  {
+    "name": "KCMN-LD6 (1080p)",
+    "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8",
+    "group": "Sports",
+    "size": 3461268,
+    "source": "tested"
+  },
+  {
+    "name": "MMA TV.com (1080p)",
+    "url": "https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8",
+    "group": "Sports",
+    "size": 779072,
+    "source": "tested"
+  },
+  {
+    "name": "Jordan Sport (1080p)",
+    "url": "http://93.184.10.248/JordanSport/index.m3u8",
+    "group": "Sports",
+    "size": 4151040,
+    "source": "tested"
+  },
+  {
+    "name": "MadeinBO TV (1080p)",
+    "url": "https://srvx1.selftv.video/dmchannel/live/playlist.m3u8",
+    "group": "Sports",
+    "size": 898640,
+    "source": "tested"
+  },
+  {
+    "name": "Futbol (1080p)",
+    "url": "https://live.teleradiocom.tj/8/3m.m3u8",
+    "group": "Sports",
+    "size": 2752225,
+    "source": "tested"
+  },
+  {
+    "name": "MEGOGO Sport [Geo-blocked]",
+    "url": "http://471ccec7.tvclub.xyz/iptv/BUYS9YTNABMC25/31612/index.m3u8",
+    "group": "Sports",
+    "size": 5297088,
+    "source": "tested"
+  },
+  {
+    "name": "Nautical Channel (720p)",
+    "url": "https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8",
+    "group": "Sports",
+    "size": 2073640,
+    "source": "tested"
+  },
+  {
+    "name": "NBC Sports NOW (1080p)",
+    "url": "https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008",
+    "group": "Sports",
+    "size": 877772,
+    "source": "tested"
+  },
+  {
+    "name": "MNB Sport (1080p)",
+    "url": "https://live.mnb.mn/hls/mnb_sport.stream.m3u8",
+    "group": "Sports",
+    "size": 1992048,
+    "source": "tested"
+  },
+  {
+    "name": "KHL Prime (720p)",
+    "url": "http://31.148.48.15/KHL_TV_HD/index.m3u8",
+    "group": "Sports",
+    "size": 238325,
+    "source": "tested"
+  },
+  {
+    "name": "PGA Tour (1080p)",
+    "url": "https://d11k1mnrgfposz.cloudfront.net/playlist.m3u8",
+    "group": "Sports",
+    "size": 3655472,
+    "source": "tested"
+  },
+  {
+    "name": "Pac 12 Insider (1080p)",
+    "url": "https://pac12-firetv.amagi.tv/playlist.m3u8",
+    "group": "Sports",
+    "size": 309824,
+    "source": "tested"
+  },
+  {
+    "name": "Monterrico TV (1080p) [Not 24/7]",
+    "url": "https://www.opencaster.com/resources/hls_stream/hipodromojcp2.m3u8",
+    "group": "Sports",
+    "size": 3564856,
+    "source": "tested"
+  },
+  {
+    "name": "Persiana Fight",
+    "url": "https://fighthls.persiana.live/hls/stream.m3u8",
+    "group": "Sports",
+    "size": 1103748,
+    "source": "tested"
+  },
+  {
+    "name": "Match! Strana (720p)",
+    "url": "http://31.148.48.15/Match_Strana/index.m3u8",
+    "group": "Sports",
+    "size": 404845,
+    "source": "tested"
+  },
+  {
+    "name": "MMA-TV (576p)",
+    "url": "http://31.148.48.15/M1_Global/index.m3u8",
+    "group": "Sports",
+    "size": 254253,
+    "source": "tested"
+  },
+  {
+    "name": "Ovacion TV (720p) [Not 24/7]",
+    "url": "http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8",
+    "group": "Sports",
+    "size": 2290780,
+    "source": "tested"
+  },
+  {
+    "name": "More Than Sports TV (1080p)",
+    "url": "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8",
+    "group": "Sports",
+    "size": 606208,
+    "source": "tested"
+  },
+  {
+    "name": "Rally TV (1080p)",
+    "url": "https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8",
+    "group": "Sports",
+    "size": 6068076,
+    "source": "tested"
+  },
+  {
+    "name": "RACER International (1080p)",
+    "url": "https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8",
+    "group": "Sports",
+    "size": 719100,
+    "source": "tested"
+  },
+  {
+    "name": "Red Bull TV (1080p)",
+    "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
+    "group": "Outdoor;Sports",
+    "size": 229172,
+    "source": "tested"
+  },
+  {
+    "name": "Racer Select (1080p)",
+    "url": "https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8",
+    "group": "Sports",
+    "size": 865928,
+    "source": "tested"
+  },
+  {
+    "name": "Red Bull TV US (1080p)",
+    "url": "https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-644-WORBUSENFAST-LG_US/644/lgtv/hls/master/playlist.m3u8",
+    "group": "Outdoor;Sports",
+    "size": 2169708,
+    "source": "tested"
+  },
+  {
+    "name": "Red Bull TV (1080p)",
+    "url": "https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8",
+    "group": "Outdoor;Sports",
+    "size": 1519040,
+    "source": "tested"
+  },
+  {
+    "name": "Red Bull TV DE (1080p)",
+    "url": "https://46cfeb23c7f74853bba7a256655a3119.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-582-WORBDACHDEFAST-WHALETVPLUS/582/whaletvplus/hls/master/playlist.m3u8",
+    "group": "Outdoor;Sports",
+    "size": 1641052,
+    "source": "tested"
+  },
+  {
+    "name": "Red Bull TV ES (1080p)",
+    "url": "https://886bd3fbc782459f8de7555d32d7e9ce.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-957-WORBLATAMESFAST-WHALETVPLUS/957/whaletvplus/hls/master/playlist.m3u8",
+    "group": "Outdoor;Sports",
+    "size": 3997632,
+    "source": "tested"
+  },
+  {
+    "name": "Red Bull TV UK (1080p)",
+    "url": "https://1a3566cb46914c5499fbc86fbc4ac87e.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-932-WORBUKENFAST-WHALETVPLUS/932/whaletvplus/hls/master/playlist.m3u8",
+    "group": "Outdoor;Sports",
+    "size": 4709964,
+    "source": "tested"
+  },
+  {
+    "name": "Sky Racing 1 (720p)",
+    "url": "https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8",
+    "group": "Sports",
+    "size": 1031180,
+    "source": "tested"
+  },
+  {
+    "name": "Sky Racing 2 (720p)",
+    "url": "https://636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8",
+    "group": "Sports",
+    "size": 1261856,
+    "source": "tested"
+  },
+  {
+    "name": "Red Bull TV BR (1080p)",
+    "url": "https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8",
+    "group": "Outdoor;Sports",
+    "size": 2553792,
+    "source": "tested"
+  },
+  {
+    "name": "Red Bull TV AU (1080p)",
+    "url": "https://db34cc6127ac459db55cab5f97cd66b9.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-680-WORBAUENFAST-WHALETVPLUS/680/whaletvplus/hls/master/playlist.m3u8",
+    "group": "Outdoor;Sports",
+    "size": 2055592,
+    "source": "tested"
+  },
+  {
+    "name": "QazSport (480p) [Geo-blocked]",
+    "url": "https://qazsporttv-stream.qazcdn.com/qazsporttv/qazsporttv/playlist.m3u8",
+    "group": "Sports",
+    "size": 1170112,
+    "source": "tested"
+  },
+  {
+    "name": "Sportitalia (1080p)",
+    "url": "https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8",
+    "group": "Sports",
+    "size": 2557364,
+    "source": "tested"
+  },
+  {
+    "name": "Stadium (720p)",
+    "url": "https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8",
+    "group": "Sports",
+    "size": 801444,
+    "source": "tested"
+  },
+  {
+    "name": "Star Sports 2 Hindi HD (1080p)",
+    "url": "http://103.157.248.140:8000/play/a01m/index.m3u8",
+    "group": "Sports",
+    "size": 1416580,
+    "source": "tested"
+  },
+  {
+    "name": "Sports Connect (720p)",
+    "url": "https://streamdot.broadpeak.io/cff02a74da64d1459391ce1f72d58f1a/afxpstr/SportsConnect/index.m3u8",
+    "group": "Sports",
+    "size": 1260352,
+    "source": "tested"
+  },
+  {
+    "name": "Realitatea Sportiva (720p)",
+    "url": "https://stream.realitatea.net/realitatea/sportiva_md/ts:playlist.m3u8",
+    "group": "Sports",
+    "size": 1145056,
+    "source": "tested"
+  },
+  {
+    "name": "Strongman (720p)",
+    "url": "https://rightsboosterltd-scl-1-eu.rakuten.wurl.tv/playlist.m3u8",
+    "group": "Sports",
+    "size": 532228,
+    "source": "tested"
+  },
+  {
+    "name": "RTI La 3 (1080p) [Not 24/7]",
+    "url": "http://69.64.57.208/la3/index.m3u8",
+    "group": "Music;Sports",
+    "size": 1056492,
+    "source": "tested"
+  },
+  {
+    "name": "Strongman Champions League (720p)",
+    "url": "https://rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8",
+    "group": "Sports",
+    "size": 717596,
+    "source": "tested"
+  },
+  {
+    "name": "Strongman Champions League (720p)",
+    "url": "https://rightsboosterltd-scl-1-be.samsung.wurl.tv/playlist.m3u8",
+    "group": "Sports",
+    "size": 532228,
+    "source": "tested"
+  },
+  {
+    "name": "Suspilne. Sport",
+    "url": "https://iptv.prosto.tv/ch112/tracks-v2a1/mono.m3u8?21yo=0&e=1783247457&id=921233&ip=178.136.40.86&live=1&secret=9szoe89y&st=jPS6nYqNZLDECF8uSDa74g",
+    "group": "Sports",
+    "size": 634688,
+    "source": "tested"
+  },
+  {
+    "name": "SuperTennis (1080p)",
+    "url": "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8",
+    "group": "Sports",
+    "size": 1806492,
+    "source": "tested"
+  },
+  {
+    "name": "Swerve Combat (1080p)",
+    "url": "https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8",
+    "group": "Sports",
+    "size": 3303348,
+    "source": "tested"
+  },
+  {
+    "name": "Tennis Channel (1080p)",
+    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8",
+    "group": "Sports",
+    "size": 706504,
+    "source": "tested"
+  },
+  {
+    "name": "talkSPORT (1080p)",
+    "url": "https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8",
+    "group": "Sports",
+    "size": 1669816,
+    "source": "tested"
+  },
+  {
+    "name": "Trace Sport Stars (Australia) (1080p)",
+    "url": "https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8",
+    "group": "Sports",
+    "size": 771552,
+    "source": "tested"
+  },
+  {
+    "name": "Tele Rebelde (480p) [Not 24/7]",
+    "url": "https://tv.picta.cu/telerebelde/telerebelde_1.m3u8",
+    "group": "Sports",
+    "size": 471880,
+    "source": "tested"
+  },
+  {
+    "name": "Tigo Sports+",
+    "url": "http://45.170.130.224:8000/play/a04i/index.m3u8",
+    "group": "Sports",
+    "size": 297792,
+    "source": "tested"
+  },
+  {
+    "name": "TJK TV (1080p)",
+    "url": "https://tjktv-live.tjk.org/tjktv.m3u8",
+    "group": "Sports",
+    "size": 1261668,
+    "source": "tested"
+  },
+  {
+    "name": "TSN The Ocho (1080p)",
+    "url": "https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8",
+    "group": "Sports",
+    "size": 715528,
+    "source": "tested"
+  },
+  {
+    "name": "Teletrak (720p)",
+    "url": "https://unlimited6-cl.dps.live/sportinghd/sportinghd.smil/playlist.m3u8",
+    "group": "Sports",
+    "size": 1529004,
+    "source": "tested"
+  },
+  {
+    "name": "TVR Sport",
+    "url": "https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/chunklist_b5160000.m3u8",
+    "group": "General;Sports",
+    "size": 1637292,
+    "source": "tested"
+  },
+  {
+    "name": "TyC Sports (1080p)",
+    "url": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8",
+    "group": "Sports",
+    "size": 1264300,
+    "source": "tested"
+  },
+  {
+    "name": "TR Sport (480p)",
+    "url": "https://livetr.teleromagna.it/mia/live/playlist.m3u8",
+    "group": "Sports",
+    "size": 1362436,
+    "source": "tested"
+  },
+  {
+    "name": "Unbeaten Sports Channel (1080p)",
+    "url": "https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8",
+    "group": "Sports",
+    "size": 545764,
+    "source": "tested"
+  },
+  {
+    "name": "TV Cuatro 4.3 (1080p)",
+    "url": "https://5ca3e84a76d30.streamlock.net/tv43gto/tv43gto.smil/.m3u8",
+    "group": "Sports",
+    "size": 4026208,
+    "source": "tested"
+  },
+  {
+    "name": "TVS Boxing (360p)",
+    "url": "https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8",
+    "group": "Sports",
+    "size": 755008,
+    "source": "tested"
+  },
+  {
+    "name": "TVS Bowling Network (720p)",
+    "url": "https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8",
+    "group": "Sports",
+    "size": 1627328,
+    "source": "tested"
+  },
+  {
+    "name": "TVS Classic Sports (360p)",
+    "url": "https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8",
+    "group": "Sports",
+    "size": 881344,
+    "source": "tested"
+  },
+  {
+    "name": "VTV6 (1080p)",
+    "url": "https://live.fptplay53.net/live/media/vtv6/live247-hls-avc/index.m3u8",
+    "group": "Sports",
+    "size": 141752,
+    "source": "tested"
+  },
+  {
+    "name": "TVS Turbo (360p)",
+    "url": "https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8",
+    "group": "Sports",
+    "size": 376000,
+    "source": "tested"
+  },
+  {
+    "name": "TVS Sports (720p) [Not 24/7]",
+    "url": "https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8",
+    "group": "Sports",
+    "size": 718912,
+    "source": "tested"
+  },
+  {
+    "name": "TVS Sports Bureau (720p)",
+    "url": "https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8",
+    "group": "Sports",
+    "size": 1272384,
+    "source": "tested"
+  },
+  {
+    "name": "viju+ Sport",
+    "url": "https://stream8.cinerama.uz/1229/tracks-v1a1/mono.m3u8",
+    "group": "Sports",
+    "size": 1305472,
+    "source": "tested"
+  },
+  {
+    "name": "TVS Women Sports (720p)",
+    "url": "https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8",
+    "group": "Sports",
+    "size": 376000,
+    "source": "tested"
+  },
+  {
+    "name": "Tour Spot TV (1280p) [Not 24/7]",
+    "url": "https://fox.hostlagarto.com:8081/toursporttv/playlist.m3u8",
+    "group": "Sports",
+    "size": 1783744,
+    "source": "tested"
+  },
+  {
+    "name": "World of Freesports (1080p)",
+    "url": "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8",
+    "group": "Sports",
+    "size": 318848,
+    "source": "tested"
+  },
+  {
+    "name": "World of Freesports (1080p)",
+    "url": "https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-mainstreammediafreesportsintl-rakuten/CDN/master.m3u8",
+    "group": "Sports",
+    "size": 319600,
+    "source": "tested"
+  },
+  {
+    "name": "World Poker Tour (1080p)",
+    "url": "https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlist/amg00477-samsungelectron-worldpokertour-samsunguk/playlist.m3u8",
+    "group": "Sports",
+    "size": 750496,
+    "source": "tested"
+  },
+  {
+    "name": "World Poker Tour (1080p)",
+    "url": "https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/playlist.m3u8?ads.xumo_channelId=88883102",
+    "group": "Sports",
+    "size": 1780360,
+    "source": "tested"
+  },
+  {
+    "name": "\u0410\u0441\u0442\u0440\u0430\u0445\u0430\u043d\u044c.Ru Sport (720p)",
+    "url": "https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8",
+    "group": "Sports",
+    "size": 715904,
+    "source": "tested"
+  },
+  {
+    "name": "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c 5 (1080p) [Not 24/7]",
+    "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8",
+    "group": "Sports",
+    "size": 17362740,
+    "source": "tested"
+  },
+  {
+    "name": "\u041c\u0410\u0422\u0427! \u0411\u043e\u0435\u0446 (576p)",
+    "url": "http://31.148.48.15/Match_Boec/index.m3u8",
+    "group": "Sports",
+    "size": 219501,
+    "source": "tested"
+  },
+  {
+    "name": "\u041c\u0410\u0422\u0427! \u0410\u0440\u0435\u043d\u0430 (720p)",
+    "url": "http://31.148.48.15/Match_Arena_HD/index.m3u8",
+    "group": "Sports",
+    "size": 307830,
+    "source": "tested"
+  },
+  {
+    "name": "\u041c\u0410\u0422\u0427! \u0418\u0433\u0440\u0430 (720p)",
+    "url": "http://31.148.48.15/Match_Igra_HD/index.m3u8",
+    "group": "Sports",
+    "size": 248462,
+    "source": "tested"
+  },
+  {
+    "name": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u042d\u043a\u0441\u0442\u0440\u0438\u043c (576p)",
+    "url": "http://31.148.48.15/Russkiy_Ekstrim/index.m3u8",
+    "group": "Sports",
+    "size": 456974,
+    "source": "tested"
+  },
+  {
+    "name": "\u0424\u0443\u0442\u0431\u043e\u043b (720p)",
+    "url": "http://31.148.48.15/Futbol_HD/index.m3u8",
+    "group": "Sports",
+    "size": 302037,
+    "source": "tested"
+  }
+]
